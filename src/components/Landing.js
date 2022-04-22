@@ -55,20 +55,20 @@ const tiers = [
       'combined with smart',
       'device control for a facility',
     ],
-    buttonText: 'Energy-Management',
+    buttonText: 'Energy Management',
     // buttonVariant: 'contained',
     buttonVariant: 'outlined'
   },
   {
-    title: '-',
-    techstack: '-',
+    title: 'Bible [WIP]',
+    subheader: 'Web App',
+    techstack: 'Typescript / Redux / Thunk',
     description: [
-      '-',
-      '-',
-      '-',
-      '-',
+      'A resource for',
+      'study using the',
+      'Holy Bible',
     ],
-    buttonText: '-',
+    buttonText: 'Bible App',
     buttonVariant: 'outlined',
   },
 ];
@@ -103,8 +103,11 @@ const redirect = (buttonText) => {
   if (buttonText === "Rock-Paper-Scissors") {
     window.location.href="https://rock-paper-scissors-terjnh.vercel.app/"
     return false;
-  } else if(buttonText === "Energy-Management") {
+  } else if(buttonText === "Energy Management") {
     window.location.href = "https://energy-monitor-app-terjnh.vercel.app/"
+    return false;
+  } else if(buttonText === "Bible App") {
+    window.location.href = "https://bible-app-v2-terjnh.vercel.app/"
     return false;
   }
 }
