@@ -107,7 +107,7 @@ const redirect = (buttonText) => {
     window.location.href = "https://energy-monitor-app-terjnh.vercel.app/"
     return false;
   } else if(buttonText === "Bible App") {
-    window.location.href = "https://bible-app-v2-terjnh.vercel.app/"
+    window.location.href = "https://bible-app-terjnh.vercel.app/"
     return false;
   }
 }
